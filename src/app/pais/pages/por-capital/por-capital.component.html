@@ -16,7 +16,7 @@
          class="alert alert-danger">
         No se encontró nada con el término <strong>{{termino}}</strong>
     </div>
-    <div *ngIf="paises.length > 0" class="row">
+    <div *ngIf="paises.length > 0" class="row animate__animated animate__fadeIn">
         <div class="col">
             <app-pais-tabla [paises]="paises"></app-pais-tabla>
         </div>
